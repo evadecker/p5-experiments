@@ -2,6 +2,25 @@
 import BaseLayout from "~/layouts/BaseLayout.astro";
 ---
 
-<BaseLayout title="Eva's Astro Starter" description="It's a new project!">
-  <h1>Hello, world!</h1>
+<BaseLayout
+  title="P5 Experiments"
+  description="A collection of experiments using P5.js."
+>
+  <main>
+    <h1>P5 Experiments</h1>
+    <ul>
+      <li><a href="/starburst">Starburst</a></li>
+      <li><a href="/sine">Sine</a></li>
+      <li><a href="/svg-perlin">SVG Perlin</a></li>
+      <li><a href="/perlin">Perlin</a></li>
+      <li><a href="/topography">Topography</a></li>
+      <li><a href="/windwaker">Wind Waker</a></li>
+    </ul>
+  </main>
 </BaseLayout>
+
+<style>
+  main {
+    padding: 1.5rem;
+  }
+</style>

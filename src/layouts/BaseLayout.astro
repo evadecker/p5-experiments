@@ -1,4 +1,7 @@
 ---
+import "~/styles/github-markdown.css";
+import "~/styles/reset.css";
+
 import smartypants from "smartypants";
 
 const siteName = "My Site";
@@ -24,7 +27,7 @@ const pageTitle = Astro.url.pathname === "/" ? title : `${title} · ${siteName}`
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <link rel="canonical" href={canonicalURL} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
     <title set:html={smartypants(pageTitle, 1)} />
     <meta name="description" content={smartypants(description, 1)} />
     <meta property="og:title" content={smartypants(title, 1)} />
@@ -42,7 +45,7 @@ const pageTitle = Astro.url.pathname === "/" ? title : `${title} · ${siteName}`
       )
     }
   </head>
-  <body>
+  <body class="markdown-body">
     <slot />
   </body>
 </html>
