@@ -1,24 +1,24 @@
 ---
-import '~/styles/github-markdown.css'
-import '~/styles/reset.css'
+import "~/styles/github-markdown.css";
+import "~/styles/reset.css";
 
-import smartypants from 'smartypants'
+import smartypants from "smartypants";
 
-const siteName = 'P5 Experiments'
+const siteName = "P5 Experiments";
 
 export interface Props {
-  title: string
-  description: string
+  title: string;
+  description: string;
   image?: {
-    src: string
-    alt: string
-  }
+    src: string;
+    alt: string;
+  };
 }
 
-const { title, description, image } = Astro.props
+const { title, description, image } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site)
-const pageTitle = Astro.url.pathname === '/' ? title : `${title} · ${siteName}`
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const pageTitle = Astro.url.pathname === "/" ? title : `${title} · ${siteName}`;
 ---
 
 <html lang="en">
