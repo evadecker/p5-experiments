@@ -1,8 +1,8 @@
-import { defineConfig } from "astro/config";
-import sitemap from "@astrojs/sitemap";
+import sitemap from '@astrojs/sitemap'
+import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: "https://experiments.eva.town",
+  site: 'https://experiments.eva.town',
   devToolbar: {
     enabled: false,
   },
@@ -10,7 +10,7 @@ export default defineConfig({
   prefetch: true,
   vite: {
     ssr: {
-      noExternal: ["smartypants"],
+      noExternal: ['smartypants'],
     },
   },
-});
+})
