@@ -18,21 +18,21 @@
   "dependencies": {
     "@astrojs/check": "^0.9.3",
     "@astrojs/sitemap": "^3.1.6",
-    "astro": "^4.15.4",
+    "astro": "^4.15.6",
     "nice-color-palettes": "^3.0.0",
     "p5": "^1.10.0",
     "p5.brush": "^1.1.2",
     "scss": "^0.2.4",
     "simplex-noise": "^4.0.3",
     "smartypants": "^0.2.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^1.9.1",
     "@types/p5": "^1.7.6",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
-    "husky": "^9.1.5",
+    "husky": "^9.1.6",
     "postcss-html": "^1.7.0",
     "sharp": "^0.33.5",
     "stylelint": "^16.9.0",
