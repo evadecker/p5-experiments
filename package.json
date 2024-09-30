@@ -19,7 +19,7 @@
     "@astrojs/check": "^0.9.3",
     "@astrojs/sitemap": "^3.1.6",
     "astro": "^4.15.9",
-    "nice-color-palettes": "^3.0.0",
+    "nice-color-palettes": "^4.0.0",
     "p5": "^1.11.0",
     "p5.brush": "^1.1.2",
     "scss": "^0.2.4",
