@@ -16,9 +16,9 @@
     "stylelint:fix": "stylelint '**/*.{astro,css,scss}' --fix"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.3",
-    "@astrojs/sitemap": "^3.1.6",
-    "astro": "^4.15.9",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/sitemap": "^3.2.0",
+    "astro": "^4.15.11",
     "nice-color-palettes": "^4.0.0",
     "p5": "^1.11.0",
     "p5.brush": "^1.1.2",
@@ -28,7 +28,7 @@
     "typescript": "^5.6.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.2",
+    "@biomejs/biome": "^1.9.3",
     "@types/p5": "^1.7.6",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
