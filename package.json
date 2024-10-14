@@ -18,14 +18,14 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.2.0",
-    "astro": "^4.15.11",
+    "astro": "^4.16.3",
     "nice-color-palettes": "^4.0.0",
     "p5": "^1.11.0",
     "p5.brush": "^1.1.2",
     "scss": "^0.2.4",
     "simplex-noise": "^4.0.3",
     "smartypants": "^0.2.2",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.3",
@@ -35,7 +35,7 @@
     "husky": "^9.1.6",
     "postcss-html": "^1.7.0",
     "sharp": "^0.33.5",
-    "stylelint": "^16.9.0",
+    "stylelint": "^16.10.0",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-standard": "^36.0.1",
     "stylelint-config-standard-scss": "^13.1.0"
