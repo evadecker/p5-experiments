@@ -18,9 +18,9 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.2.1",
-    "astro": "^4.16.7",
+    "astro": "^4.16.8",
     "nice-color-palettes": "^4.0.0",
-    "p5": "^1.11.0",
+    "p5": "^1.11.1",
     "p5.brush": "^1.1.4",
     "scss": "^0.2.4",
     "simplex-noise": "^4.0.3",
