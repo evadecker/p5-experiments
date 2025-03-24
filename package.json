@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/sitemap": "^3.2.1",
-    "astro": "^5.5.2",
+    "@astrojs/sitemap": "^3.3.0",
+    "astro": "^5.5.4",
     "nice-color-palettes": "^4.0.0",
     "p5": "^1.11.3",
     "p5.brush": "^1.1.4",
