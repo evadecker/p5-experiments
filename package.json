@@ -18,7 +18,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.3.0",
-    "astro": "^5.6.1",
+    "astro": "^5.6.2",
     "nice-color-palettes": "^4.0.0",
     "p5": "^1.11.3",
     "p5.brush": "^1.1.4",
@@ -34,7 +34,7 @@
     "cssnano": "^7.0.6",
     "husky": "^9.1.7",
     "postcss-html": "^1.8.0",
-    "sharp": "^0.34.0",
+    "sharp": "^0.34.1",
     "stylelint": "^16.18.0",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-standard": "^37.0.0",
